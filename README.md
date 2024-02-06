@@ -59,7 +59,7 @@ chmod +x data-download.sh
 To get started, clone the repository:
 
 ```bash
-git clone git@github.com:SMARTSHEEP-IO/bitcoin-price-prediction-analysis-simulating-growth-near-ath-halving.git
+git clone git@github.com:SMARTSHEEP-IO/bitcoin-price-forecasting-using-prophet.git
 ```
 
 ## Usage
