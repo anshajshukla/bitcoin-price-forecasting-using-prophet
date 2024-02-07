@@ -1,6 +1,6 @@
 # Enhanced Bitcoin Price Forecasting for 2024 Halving Using Prophet
 
-This project leverages the Prophet time series forecasting model to predict Bitcoin prices, incorporating five years of comprehensive market data. The focus is on critical market dynamics such as volatility, market cycles, investor sentiment, and particularly the 2024 Bitcoin halving event—a pivotal occurrence historically influencing Bitcoin's value. By analyzing data around previous halvings, the model aims to uncover trends crucial for forecasting future Bitcoin prices accurately.
+This project leverages the Prophet time series forecasting model to predict Bitcoin prices, incorporating five years of comprehensive market data. The focus is on critical market dynamics such as volatility, market cycles, investor sentiment, and particularly the 2024 Bitcoin halving event—a pivotal occurrence historically influencing Bitcoin's value. By analyzing data around previous halvings, the model aims to uncover trends crucial for forecasting future Bitcoin prices.
 
 ## Features and Benefits
 - **Prophet Forecasting Model**: Utilizes Facebook's Prophet model for its intuitive and robust time series forecasting capabilities.
