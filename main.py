@@ -36,10 +36,10 @@ The author and anyone associated with the code is not responsible for any financ
 import pandas as pd
 from prophet import Prophet
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')  # Set this before importing pyplot
+import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib.ticker as ticker
-import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import ta
 from data_helper import DataHelper
@@ -165,4 +165,13 @@ plt.xlabel('Date', fontsize=18, color='white')
 plt.ylabel('BTC Price (USD)', fontsize=18, color='white')
 plt.legend(loc='upper left', fontsize=14)
 
-plt.show()
+# plt.show()
+
+plt.savefig('plots/bitcoin_forecast.png', 
+            dpi=300,              # High resolution
+            bbox_inches='tight',  # Fit all content
+            facecolor='black',    # Maintain dark background
+            edgecolor='none')     # No edge color
+plt.close()  # Close the figure to free memory
+
+print("Plot has been saved as 'plots/bitcoin_forecast.png'")
